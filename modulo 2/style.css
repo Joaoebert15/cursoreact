@@ -1,0 +1,39 @@
+input{
+    border: none;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 1rem 0rem 1rem 0rem;
+    width: 200px;
+    color: white;
+    
+}
+
+input::placeholder{
+    color: white;
+    outline: none
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    border: none;
+    background-color: grey;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 1rem 0rem 1rem 0rem;
+    width: 200px;
+    color: white;
+}
+
+
+
+.coluna{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
