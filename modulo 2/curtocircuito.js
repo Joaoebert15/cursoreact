@@ -6,4 +6,5 @@
 *false
 
 falsy = 0, '', null, NaN
+*/
 
